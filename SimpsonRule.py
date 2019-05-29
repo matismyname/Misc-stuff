@@ -1,4 +1,4 @@
-#This function calculates and graphs the Simpson rule for approximating an integral
+#This program calculates and graphs the Simpson rule for approximating an integral
 
 from matplotlib import pyplot as plt
 from matplotlib.pyplot import xlabel, ylabel

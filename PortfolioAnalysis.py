@@ -11,7 +11,7 @@ def calc(m1, s1, m2, s2, r12):
     spf = 0
     minvar = 0
     omega = 0
-    #Caclulates all the mean-variance points ((x, y) points) for each omega += 0.01 starting from 0
+    #Caclulates all the mean-variance points ((y, x) points) for each omega += 0.01 starting from 0
     for i in range(100):
         mpf = omega*m1+(1-omega)*m2
         spf = (omega*omega*s1*s1)+(1-omega)*(1-omega)*s2*s2+2*omega*(1-omega)*s1*s2*r12

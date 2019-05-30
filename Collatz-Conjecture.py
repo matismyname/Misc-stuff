@@ -1,3 +1,6 @@
+#This program outputs the number between 2 an p for which the most steps were required until reaching 4-2-1
+#It also outputs the number of steps for that number
+
 def main():
     p = 10      #Up until which number starting from 0 you want to "test" the Collatz Conjecture
     a = 2       #Starting number, 0 and 1 are trivial

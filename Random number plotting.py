@@ -32,7 +32,7 @@ def main():
 
     plt.xlabel("Numbers")
     plt.ylabel("Frequencies")
-    plt.title("Numbers frequencies")
+    plt.title("Number frequencies")
     plt.legend()
     plt.show()
 
